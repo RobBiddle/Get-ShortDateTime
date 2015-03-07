@@ -10,7 +10,7 @@
 Function Get-ShortDate{
 $Date = Get-Date;$Date.ToShortTimeString()
 }
-Function Get-SimpleTime{
+Function Get-ShortTime{
 $Time = Get-Date;$Time.ToShortTimeString()
 }
 Export-ModuleMember -Function * -Variable *
